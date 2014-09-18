@@ -1,0 +1,115 @@
+@charset = UTF-8;
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300);
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* header */
+.header {
+    background: #000;
+    height: 350px;
+    text-align: center;
+    line-height: 100px;
+}
+
+h1 {
+    color: #fff;
+}
+
+/* footer */
+.footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* contents */
+
+.inner {
+  width: 950px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.author {
+  background-image: url(../img/toge.png);
+  background-repeat: repeat-x;
+  background-position: center top;
+}
+
+.name {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: .3em;
+}
+
+.intro {
+  color: #000;
+  letter-spacing: .1em;
+  line-height: 1.6em;
+}
+
+.left {
+  margin: 20px 50px 0 0;
+}
+
+.right {
+  margin: 20px 0 0 50px;
+}
+
+.pink {
+  background-color: #ea277c
+}
+
+.yellow {
+  background-color: #2698ef;
+  text-align: right;
+
+}
+
+.portfolio {
+  background-color: #000;
+}
+
+.portfolio .inner {
+  text-align: center;
+}
+
+.arrow {
+  border-width: 30px;
+  border-color: transparent transparent #000;
+  border-style: solid;
+  position: absolute;
+  bottom: 0;
+}
+
+.arwtansan {
+  left: 250px;
+}
+
+.arw20 {
+  right: 250px;
+}
+
+.image {
+  display: inline-block;
+  filter: grayscale(80%);
+  -webkit-filter: grayscale(80%);
+  transition-duration: .5s;
+  width: 90px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 6px;
+}
+
+.image:last-child {
+  margin-right: 0;
+}
+
+.image:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
