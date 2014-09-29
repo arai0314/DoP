@@ -3,12 +3,13 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-image: url(../img/lightning.png);
+    background-color: #000;
 }
 
 
 /* header */
 .header {
-    background: #000;
     height: 350px;
     text-align: center;
     line-height: 100px;
@@ -60,7 +61,7 @@ h1 {
 }
 
 .pink {
-  background-color: #ea277c
+  background-color: #ea277c;
 }
 
 .yellow {
